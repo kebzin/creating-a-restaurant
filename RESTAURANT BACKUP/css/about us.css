@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,200&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 2s linear;
+    
+
+}
+
+
+
+:root{
+    --green:#27ae60;
+    --black:#130f40;
+    --white:#fff;
+    --light-color:#666;
+    ---light-bg:#f7f7f7;
+    --border: 1rem solid rgba(0,0,0,.2);
+    --box-shado: 0 1rem 1rem solid rgba(0,0,0,.05);
+}
+
+html{
+    font-size: 99.5%;
+   
+    scroll-behavior: smooth;
+    scroll-padding-top: 6.5rem;
+
+    
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: white;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--black);
+
+}
+
+i{
+    padding-right: 2rem;
+    color: var(--green);;
+}
+
+
+.navbar a{
+   
+    font-size: 1.2rem;
+    color: var(--light-color);
+    margin: 0 1rem;
+    
+
+}
+.navbar a:hover{
+    color: var(--green);
+}
+
+ .icons div{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    font-size: 1rem;
+    background-color: var(---light-bg);
+    color: var(--black);
+    border-radius: 5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    
+    text-align: center;
+}
+.icons div:hover{
+    color: var(--white);
+    background-color: var(--green);
+}
+
+
+
+section{
+    padding: 2.5rem 9%;
+    
+}
+
+
+
+
+
+
+
+.btn{
+    text-align: center;
+    
+    margin: auto;
+    top: 2rem;
+    padding: 9px;
+    background-color: var(--green);
+    border-radius: .6rem;
+    color: var(--white);
+
+    
+    
+}
+.btn:hover{
+    background: var(--black);
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    
+} .heading  h3{
+    font-size: 2rem;
+    color: var(--black);
+
+}
+
+.row-banner .content h2{
+    color: var(--black);
+    font-size: 1.7rem;
+
+}
